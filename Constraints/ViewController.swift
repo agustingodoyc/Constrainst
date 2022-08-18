@@ -16,11 +16,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITextViewDelegat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        tableViewData = DataLoader().loadMessages()
-        
-        tableView.register(UITableViewCell.self,
-                           forCellReuseIdentifier: "TableViewCell")
+        let file = "messages"
+        tableViewData = DataLoader().loadMessages(file)
         
         tableView.dataSource = self
     }
