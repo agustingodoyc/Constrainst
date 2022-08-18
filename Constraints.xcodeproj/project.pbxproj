@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D61C6D0228AD665E00FB94AF /* SentMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C6D0128AD665E00FB94AF /* SentMessage.swift */; };
+		D61C6D0428AD767C00FB94AF /* RecivedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61C6D0328AD767C00FB94AF /* RecivedMessage.swift */; };
+		D67704DE28ABE82000B9D08C /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = D67704DD28ABE82000B9D08C /* messages.json */; };
+		D67704E028ABE8BF00B9D08C /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67704DF28ABE8BF00B9D08C /* MessageData.swift */; };
+		D67704E228ABE9E200B9D08C /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67704E128ABE9E200B9D08C /* DataLoader.swift */; };
 		D6C32DC728A4083300C18447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C32DC628A4083300C18447 /* AppDelegate.swift */; };
 		D6C32DC928A4083300C18447 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C32DC828A4083300C18447 /* SceneDelegate.swift */; };
 		D6C32DCB28A4083300C18447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C32DCA28A4083300C18447 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D61C6D0128AD665E00FB94AF /* SentMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMessage.swift; sourceTree = "<group>"; };
+		D61C6D0328AD767C00FB94AF /* RecivedMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecivedMessage.swift; sourceTree = "<group>"; };
+		D67704DD28ABE82000B9D08C /* messages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = messages.json; sourceTree = "<group>"; };
+		D67704DF28ABE8BF00B9D08C /* MessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
+		D67704E128ABE9E200B9D08C /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		D6C32DC328A4083300C18447 /* Constraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Constraints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C32DC628A4083300C18447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C32DC828A4083300C18447 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +66,7 @@
 		D6C32DC528A4083300C18447 /* Constraints */ = {
 			isa = PBXGroup;
 			children = (
+				D67704DD28ABE82000B9D08C /* messages.json */,
 				D6C32DC628A4083300C18447 /* AppDelegate.swift */,
 				D6C32DC828A4083300C18447 /* SceneDelegate.swift */,
 				D6C32DCA28A4083300C18447 /* ViewController.swift */,
@@ -63,6 +74,10 @@
 				D6C32DCF28A4083400C18447 /* Assets.xcassets */,
 				D6C32DD128A4083400C18447 /* LaunchScreen.storyboard */,
 				D6C32DD428A4083400C18447 /* Info.plist */,
+				D67704DF28ABE8BF00B9D08C /* MessageData.swift */,
+				D67704E128ABE9E200B9D08C /* DataLoader.swift */,
+				D61C6D0128AD665E00FB94AF /* SentMessage.swift */,
+				D61C6D0328AD767C00FB94AF /* RecivedMessage.swift */,
 			);
 			path = Constraints;
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C32DD328A4083400C18447 /* LaunchScreen.storyboard in Resources */,
+				D67704DE28ABE82000B9D08C /* messages.json in Resources */,
 				D6C32DD028A4083400C18447 /* Assets.xcassets in Resources */,
 				D6C32DCE28A4083300C18447 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67704E228ABE9E200B9D08C /* DataLoader.swift in Sources */,
 				D6C32DCB28A4083300C18447 /* ViewController.swift in Sources */,
 				D6C32DC728A4083300C18447 /* AppDelegate.swift in Sources */,
 				D6C32DC928A4083300C18447 /* SceneDelegate.swift in Sources */,
+				D61C6D0428AD767C00FB94AF /* RecivedMessage.swift in Sources */,
+				D67704E028ABE8BF00B9D08C /* MessageData.swift in Sources */,
+				D61C6D0228AD665E00FB94AF /* SentMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
